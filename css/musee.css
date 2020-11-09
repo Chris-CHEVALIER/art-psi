@@ -1,0 +1,32 @@
+body {
+  background-color: #c9d6ef;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.text-block {
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin: 10px;
+  }
+
+  .text-block {
+    width: 90%;
+  }
+
+  .img-responsive {
+    width: 90%;
+  }
+}
